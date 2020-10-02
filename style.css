@@ -1,23 +1,24 @@
 @font-face { font-family: imFell; src: url('imFell.ttf'); }
 
 body {
-    overflow: hidden;
     width: 100%;
     height: 100%;
     padding: 0;
     margin: 0;
     font-family: imFell;
+    overflow-x: hidden;
   }
   /* Slider wrapper*/
   .css-slider-wrapper {
     display: block;
     background: #FFF;
     overflow: hidden;
-    position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
+    height: 100vh;
+    max-width: 100vw;
   }
   /*Nav*/
   nav {
@@ -47,7 +48,24 @@ nav a:hover {
     color: black;
 }
 
-  
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0;
+}  
+
+
+#video {
+  width: 95%;
+  height: 315px;
+  padding: 2.5%;
+}
+
+.section2 p {
+  font-size: 1.5em;
+  margin: auto;
+  padding: 3%;
+}
   
   /* Slider */
   .slider {
@@ -86,7 +104,7 @@ nav a:hover {
   }
 
   .slide1 img {
-      max-width: 80%;
+      max-width: 75%;
       height: auto;
   }
   .slide2 {
@@ -235,7 +253,11 @@ nav a:hover {
       font-size: 1em;
       padding: 5px 5px;
   }
+  
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
-
-  /**/
+  }
