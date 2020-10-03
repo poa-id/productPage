@@ -95,9 +95,9 @@ nav a:hover {
   /* each slide backgound color */  
   .slide1 {
     background-image:
-    ![asfalt-dark](img/asfalt-dark.png),
+    (img/asfalt-dark.png),
     linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)),
-    ![cover2](img/cover2.jpg);
+    (img/cover2.jpg);
     background-position: center;
     background-size: cover;
     left: 0;
