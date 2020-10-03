@@ -109,7 +109,7 @@ nav a:hover {
   }
   .slide2 {
     background-image:
-    url('img/arabesque.png'),
+    url('../img/arabesque.png'),
     linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)),
     url('../img/cover3.jpg');
     background-position: center;
