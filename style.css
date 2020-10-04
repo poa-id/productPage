@@ -95,6 +95,7 @@ nav a:hover {
   transform: scale(1);
 }
 /* each slide backgound color */
+/*Provando si con un punto anda GitHub pages*/
 .slide1 {
   background-image: url("./img/asfalt-dark.png"),
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
