@@ -95,9 +95,9 @@ nav a:hover {
   /* each slide backgound color */  
   .slide1 {
     background-image:
-    (img/asfalt-dark.png),
+    url("./img/asfalt-dark.png"),
     linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)),
-    (img/cover2.jpg);
+    url("../img/cover2.jpg");
     background-position: center;
     background-size: cover;
     left: 0;
@@ -109,27 +109,27 @@ nav a:hover {
   }
   .slide2 {
     background-image:
-    ![arabesque](img/arabesque.png),
+    background-image: url("./img/arabesque.png"),
     linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)),
-    ![cover3](img/cover3.jpg);
+    url("../img/cover3.jpg");
     background-position: center;
     background-size: cover;
     left: 100%
   }
   .slide3 {
     background-image:
-    ![asfalt-dark](img/asfalt-dark.png),
+    background-image: url("./img/asfalt-dark.png"),
     linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,1)),
-    ![cover4](img/cover4.jpg);
+    url("./img/cover4.jpg");
     background-position: center;
     background-size: cover;
     left: 200%
   }
   .slide4 {
     background-image:
-    ![arabesque](img/arabesque.png),
+    background-image: url("./img/arabesque.png"),
     linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1)),
-    ![cover1](img/cover1.jpg);
+    url("./img/cover1.jpg");
     background-position: center;
     background-size: cover;
     left: 300%;
