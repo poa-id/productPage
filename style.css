@@ -108,7 +108,8 @@ nav a:hover {
       height: auto;
   }
   .slide2 {
-    background-image: url("./img/arabesque.png"),
+    background-image: 
+    url("./img/arabesque.png"),
     linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)),
     url("./img/cover3.jpg");
     background-position: center;
@@ -116,7 +117,8 @@ nav a:hover {
     left: 100%
   }
   .slide3 {
-    background-image: url("./img/asfalt-dark.png"),
+    background-image:
+    url("./img/asfalt-dark.png"),
     linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,1)),
     url("./img/cover4.jpg");
     background-position: center;
@@ -124,7 +126,8 @@ nav a:hover {
     left: 200%
   }
   .slide4 {
-    background-image: url("./img/arabesque.png"),
+    background-image: 
+    url("./img/arabesque.png"),
     linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1)),
     url("./img/cover1.jpg");
     background-position: center;
