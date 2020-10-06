@@ -97,7 +97,7 @@ nav a:hover {
     background-image:
     url("./img/asfalt-dark.png"),
     linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)),
-    url("../img/cover2.jpg");
+    url("./img/cover2.jpg");
     background-position: center;
     background-size: cover;
     left: 0;
@@ -111,7 +111,7 @@ nav a:hover {
     background-image:
     background-image: url("./img/arabesque.png"),
     linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)),
-    url("../img/cover3.jpg");
+    url("./img/cover3.jpg");
     background-position: center;
     background-size: cover;
     left: 100%
