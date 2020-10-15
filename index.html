@@ -10,11 +10,12 @@
 </head>
 
 <body>
+    <a id="top" href=""></a>
     <header id="header">
         <nav id="nav-bar" class="nav navbar-nav">
-            <a class="nav-link" href="#home">Inicio</a>
-            <a class="nav-link" href="#nav-target-about">Nosotros</a>
-            <a class="nav-link" href="#nav-target-ideas">Productos</a>
+            <a class="nav-link" href="#top">Inicio</a>
+            <a class="nav-link" href="#nav-form">Newsletter</a>
+            <a class="nav-link" href="#nav-products">Productos</a>
         </nav>
 
 
@@ -57,6 +58,14 @@
     </div>
 
     <main>
+        <a id="nav-form" class="navLink" href=""></a>
+        <div id="formsection">
+            <h2 class="newsletter">Si querés recibir información de nuestros productos unite al Newsletter!</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email" placeholder="Ingrese su correo electrónico" required>
+                <input id="submit" type="submit">
+            </form>
+        </div>
         <div class="section2">
             <iframe id="video" src="https://www.youtube.com/embed/OnPaDgJbjRU" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -64,8 +73,75 @@
             <p>Para un tutorial sobre el uso de los aceites para barba, pueden ver el video de Eric Bandholz,
                 fundador de Beardbrand, explicando cómo utilizar éste tipo de productos</p>
         </div>
-        <div id="formsection"></div>
+        <section id="pricing">
+            <a id="nav-products" class="navLink" href=""></a>
+            <div class="product" id="hermit">
+                <div class="level">The Hermit</div>
+                <img src="./img/cartaHermit.jpg" alt="foto de carta de tarot the hermit">
+                <h2>$500</h2>
+                <ul>
+                    <li>Fomenta el crecimiento</li>
+                    <li>Aroma ahumeado, y fresco</li>
+                    <li>Menta y Romero, fomentan el flujo sanguíneo</li>
+                    <li>Hidrata y nutre la piel para óptimo crecimiento</li>
+                </ul>
+            </div>
+            <div class="product" id="alchemist">
+                <div class="level">The Alchemist</div>
+                <img src="./img/cartaAlchemist.jpg" alt="foto de carta de tarot the alchemist">
+                <h2>$480</h2>
+                <ul>
+                    <li>El bosque y el camino</li>
+                    <li>Silvestre, fresco con dejo amaderado</li>
+                    <li>Hidratante, deja la piel y el pelo suave y manejable</li>
+                    <li>Para aventureros</li>
+                </ul>
+
+            </div>
+            <div class="product" id="emperor">
+                <div class="level">The Emperor</div>
+                <img src="./img/cartaEmperor.jpg" alt="foto de carta de tarot the emperor">
+                <h2>$480</h2>
+                <ul>
+                    <li>El Viejo Mundo</li>
+                    <li>Menta, y especias de oriente</li>
+                    <li>Fragancia sutil</li>
+                    <li>Toda la nutrición y el cuidado, con un aroma mas suave</li>
+                </ul>
+
+            </div>
+        </section>
+        <section id="pricing2">
+            <div class="product" id="sun">
+                <div class="level">The Sun</div>
+                <img src="./img/sun.jpg" alt="foto de cera the sun">
+                <h2>$480</h2>
+                <ul>
+                    <li>Da forma y protege el bigote</li>
+                    <li>Aroma ahumado y clásico</li>
+                    <li>Mantiene la humedad en el pelo</li>
+                </ul>
+            </div>
+            <div class="product" id="moon">
+                <div class="level">The Moon</div>
+                <img src="./img/moon.jpg" alt="foto de balsamo the moon">
+                <h2>$480</h2>
+                <ul>
+                    <li>Fijación media</li>
+                    <li>Aroma suave, protección fuerte</li>
+                    <li>Ideal para peinar los o pelos rebeldes</li>
+                </ul>
+
+            </div>
+        </section>
+
     </main>
+    <footer>
+        <div id="bot">
+            <a href="https://www.instagram.com/arcanabeardoil/"><img src="./img/glyph-logo_May2016.png"
+                    alt="logo instagram"></a>
+        </div>
+    </footer>
 </body>
 
 </html>
